@@ -1,0 +1,21 @@
+{
+  "name": "purescript-svgo",
+  "description": "A purescript wrapper of SVGO",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nonbili/purescript-svgo.git"
+  },
+  "license": "BSD-3-Clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-aff-promise": "^2.0.1"
+  },
+  "devDependencies": {
+    "purescript-jest": "^0.3.0"
+  }
+}
