@@ -1,4 +1,11 @@
 {
+  "private": true,
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "postinstall": "bower install",
+    "test": "pulp build -I test && jest",
+    "test:ci": "pulp build -I test -- --strict --stash +RTS -N2 -RTS"
+  },
   "dependencies": {
     "svgo": "^1.2.1"
   },
